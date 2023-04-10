@@ -78,12 +78,7 @@ def display_blocks(stream, block_size=16, cols=2):
 
 
 def main():
-	a = "-" + "ab" * 16 + "bc" * 15 + "ab" * 16 + "bc" * 15 + "ab" * 16 + "bc" * 15 + "12" * 64
-	display_blocks(a, cols=1)
-	b = "ab" * 16 + "bc" * 16
-	display_blocks(b)
-	c = "00" * 64
-	display_blocks(c)
+	pass
 
 
 if __name__ == '__main__':
